@@ -125,8 +125,11 @@ body {
 
 .post-img-size {
   margin: 2% auto;
-  width: 70%;
-  display: block; }
+  width: 45%; }
+
+.post-img-Amanda {
+  margin: 2% auto;
+  width: 90%; }
 
 .ui-aboutproj-size {
   width: 40%;
