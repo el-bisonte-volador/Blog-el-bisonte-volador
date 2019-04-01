@@ -179,4 +179,41 @@ body {
     background-color: #be9a4c;
     transition: 0.8s; }
 
+.on-desktop {
+  display: flex; }
+
+.on-mobile {
+  display: none; }
+
+@media screen and (max-width: 800px) {
+  .ui-herobanner-position {
+    max-width: 380px; }
+
+  .ui-aboutdevs-size {
+    width: 90%; }
+
+  .ui-aboutproj-size {
+    width: 90%; }
+
+  .ui-stories-list {
+    width: 80%; }
+
+  .ui-stories-item::before {
+    width: 0%; }
+
+  .ui-stories-item::after {
+    width: 0%; }
+
+  .on-desktop {
+    display: none; }
+
+  .on-mobile {
+    display: flex; }
+
+  .ui-intro-size {
+    top: 50vh; }
+
+  .ui-stories-size {
+    margin: 50vh 0; } }
+
 /*# sourceMappingURL=style.css.map */
