@@ -1,4 +1,20 @@
-// Global styles
-////////////////
-@import 'general';
+// Global styles.
+/////////////////
+@import 'global';
+
+// Developers contact list.
+///////////////////////////
+@import 'devlist';
+
+// Hero banner image.
+/////////////////////
+@import 'herobanner';
+
+// Content
+//////////
+@import 'precontent';
+@import 'posts';
+
+// Media Querie mobile.
+///////////////////////
 @import 'mobile';
