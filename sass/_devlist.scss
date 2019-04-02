@@ -1,0 +1,50 @@
+.ui-developers-position {
+	width: 100vw;
+	height: 8vh;
+	background-color:#2b2c2d;
+	position: fixed;
+	box-shadow: inset 0px 0px 35px #00000042;
+	top: 0;
+	z-index: 1;
+}
+
+.ui-developers-list {
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+	height: 8vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-content: space-around;
+}
+
+.on-desktop {
+	display: flex;
+}
+
+.on-mobile {
+	display: none;
+}
+
+
+.ui-name-item {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	width: 10%;
+	transition: 1s;
+	padding: 2% 5%;
+	border-top: 3px solid #2b2c2d;
+	border-bottom: 1px solid #edd774;
+	&:hover {
+		border-top: 3px solid #edd774;
+		transition: 0.8s;
+	}
+}
+
+.ui-name-item a {
+	color: #edd774;
+	text-decoration: none;
+	position: absolute;
+}
