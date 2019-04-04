@@ -1,0 +1,16 @@
+body {
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background-color:#18191a;
+	font-family: 'IBM Plex Serif', serif;
+	line-height: 30px;
+	overflow-x: hidden;
+}
+
+.ui-breakline-color {
+	display: block;
+	height: 5px;
+	margin: 20%;
+	background-image: linear-gradient(to right, #f1e199, #776a2b);
+}
